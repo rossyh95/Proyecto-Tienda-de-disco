@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de discos</title>
+</head>
+<body>
+<h1>Tienda de discos</h1>
+
+<label for="name">Nombre: </label>
+<input type="text" id="name">
+
+<label for="price">Precio: </label>
+<input type="text" id="price">
+
+<label for="year">Año: </label>
+<input type="text" id="year">
+
+<input type="submit" value="Registrar" onclick="addRow()">
+<br><br>
+
+<table style="width:40%" id="tableDisc">
+    <tr>
+      <th>Id del Disco</th>
+      <th>Nombre del Disco</th>
+      <th>Año del disco</th>
+      <th>Precio del disco</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+
+    <script src="disco.js"></script>
+</body>
+</html>
