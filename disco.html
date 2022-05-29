@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de discos</title>
+    <link rel="stylesheet" href="disco.css">
 </head>
 <body>
 <h1>Tienda de discos</h1>
+
+<label>Buscar </label><input id="searchTerm" type="text" />
+<br>
+<br>
 
 <label for="name">Nombre: </label>
 <input type="text" id="name">
@@ -21,20 +26,13 @@
 <input type="submit" value="Registrar" onclick="addRow()">
 <br><br>
 
-<table style="width:40%" id="tableDisc">
+<table id="tableDisc" class="styled-table">
     <tr>
       <th>Id del Disco</th>
       <th>Nombre del Disco</th>
       <th>Año del disco</th>
       <th>Precio del disco</th>
       <th></th>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
     </tr>
   </table>
 
